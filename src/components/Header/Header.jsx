@@ -54,7 +54,7 @@ export default function Header() {
 
 // Helper component to avoid repeating the list items twice
 function NavLinks() {
-      const links = ["Home", "About", "Events", "Members"];
+      const links = ["Home", "About", "Events", "Teams", "Registration"];
       return (
             <>
                   {links.map((link) => (

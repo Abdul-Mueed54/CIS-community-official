@@ -6,7 +6,8 @@ import Home from './components/Home/Home.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import About from './components/About/About.jsx'
 import Event from './components/Event/Event.jsx'
-import Member from './components/Members/Member.jsx'
+import Teams from './components/Teams/Teams.jsx'
+import Registrations from './components/Registration/Registrations.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,7 +17,8 @@ const router = createBrowserRouter(
     <Route path='' element={<Home />} />
     <Route path='about' element={<About />} />
     <Route path='events' element={<Event />} />
-    <Route path='members' element={<Member />} />
+    <Route path='teams' element={<Teams />} />
+    <Route path='registration' element={<Registrations />} />
     </Route>
 
 
