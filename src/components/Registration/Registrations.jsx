@@ -30,7 +30,7 @@ const Registerations = () => {
                   <div className="w-full max-w-4xl relative overflow-hidden">
 
                         {/* STEP 0: Role Selection Cards */}
-                        <div className={`transition-all duration-500 ease-in-out flex flex-col items-center ${step === 0 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full absolute'}`}>
+                        <div className={`transition-all duration-500 rounded-4xl h-200 md:h-100 ease-in-out flex flex-col items-center ${step === 0 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full absolute'}`}>
                               <h1 className="text-4xl font-black text-blue-900 mb-2">Welcome!</h1>
                               <p className="text-gray-500 mb-10 text-lg">Tell us who you are to get started</p>
 

@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+
+@theme {
+  --color-dblue: #1c1c9e;
+  --spacing-128: 32rem;
+}

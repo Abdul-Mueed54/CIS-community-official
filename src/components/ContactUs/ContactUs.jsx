@@ -96,7 +96,7 @@ const ContactUs = () => {
                             <input
                                 name="university"
                                 type="text"
-                                placeholder="NEDUET"
+                                placeholder="University"
                                 onChange={handleChange}
                                 className="w-full pl-12 pr-4 py-3.5 rounded-xl bg-gray-50 border border-transparent outline-none focus:ring-4 focus:ring-blue-900/10 focus:border-blue-900 transition-all"
                                 required
@@ -110,7 +110,7 @@ const ContactUs = () => {
                                 <input
                                     name="batch"
                                     type="text"
-                                    placeholder="(e.g. 2024)"
+                                    placeholder="Batch (e.g. 2024)"
                                     onChange={handleChange}
                                     className="w-full pl-12 pr-4 py-3.5 rounded-xl bg-gray-50 border border-transparent outline-none focus:ring-4 focus:ring-blue-900/10 focus:border-blue-900 transition-all"
                                     required
@@ -121,7 +121,7 @@ const ContactUs = () => {
                                 <input
                                     name="department"
                                     type="text"
-                                    placeholder="CIS"
+                                    placeholder="Department"
                                     onChange={handleChange}
                                     className="w-full pl-12 pr-4 py-3.5 rounded-xl bg-gray-50 border border-transparent outline-none focus:ring-4 focus:ring-blue-900/10 focus:border-blue-900 transition-all"
                                     required

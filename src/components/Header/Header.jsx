@@ -62,7 +62,7 @@ function NavLinks() {
                               <NavLink
                                     to={link === "Home" ? "/" : link.toLowerCase()}
                                     className={({ isActive }) =>
-                                          `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-yellow-400" : "text-white"} hover:text-black lg:hover:bg-transparent`
+                                          `py-2 pr-4 pl-3 duration-300 ease-in-out ${isActive ? "text-yellow-400" : "text-white"} hover:text-black `
                                     }
                               >
                                     {link}
