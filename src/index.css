@@ -5,3 +5,27 @@
   --color-dblue: #1c1c9e;
   --spacing-128: 32rem;
 }
+
+ /* <style jsx global>{` */
+         .perspective-1000 { perspective: 1000px; }
+         .preserve-3d { transform-style: preserve-3d; }
+         .backface-hidden { backface-visibility: hidden; }
+         .rotate-y-180 { transform: rotateY(180deg); }
+
+         /* --- FIX: VISIBLE SCROLLBAR --- */
+         .custom-scrollbar::-webkit-scrollbar {
+           width: 8px; /* Slightly wider for better visibility */
+         }
+         .custom-scrollbar::-webkit-scrollbar-track {
+           background: #acb6bf; /* Light slate background for the track */
+           border-radius: 20px;
+         }
+         .custom-scrollbar::-webkit-scrollbar-thumb {
+           background: #1c1c9e; /* Visible slate color */
+           border-radius: 20px;
+           border: 1px solid #f1f5f9; /* Adds a little padding look */
+         }
+         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+           background: #94a3b8; /* Darker on hover */
+         }
+      /* `}</style> */

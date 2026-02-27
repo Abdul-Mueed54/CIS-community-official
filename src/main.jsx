@@ -10,6 +10,10 @@ import Teams from './components/Teams/Teams.jsx'
 import Registrations from './components/Registration/Registrations.jsx'
 import DashBoard from './Admin/Dashboard/DashBoard.jsx'
 import DashBoardLayout from './Admin/Dashboard/DashBoardLayout.jsx'
+import Activity from './Admin/CurrentActivity/Activity.jsx'
+import Alumni from './Admin/Alumni/Alumni.jsx'
+import TeamMembers from './Admin/TeamsMembers/TeamMembers.jsx'
+import BulkMsgs from './Admin/SendBulkMsgs/BulkMsgs.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +30,11 @@ const router = createBrowserRouter(
       {/* ADMIN LAYOUT */}
       <Route path='admin' element={<DashBoardLayout />}>
         <Route index element={<DashBoard />} />
+        <Route path='activity' element={<Activity />} />
+        <Route path='alumni' element={<Alumni />} />
+        <Route path='teammembers' element={<TeamMembers />} />
+        <Route path='bulkmsgs' element={<BulkMsgs />} />
+        
       </Route>
     </>
   )

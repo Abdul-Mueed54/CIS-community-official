@@ -4,7 +4,7 @@ import { Facebook, Instagram, Linkedin, Youtube} from 'lucide-react';
 export default function Footer() {
   return (
     // Added 'border-t-4' and 'bg-blue-900' as per your design
-    <footer className="bg-blue-900 text-white">
+    <footer className="bg-dblue text-white">
       <div className="container mx-auto px-6 py-10">
         
         {/* Top Section: Logo and Navigation */}
