@@ -1,7 +1,10 @@
-
 /* ── Avatar ── */
 export default function Avatar({ name, photo }) {
-  const initials = name.split(" ").map((n) => n[0]).join("").toUpperCase();
+  const initials = name
+    .split(" ")
+    .map((n) => n[0])
+    .join("")
+    .toUpperCase();
   if (photo) {
     return (
       <img

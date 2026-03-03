@@ -1,8 +1,8 @@
 import React from 'react'
 import SideBar from './SideBar'
-import Layout from './DashBoardLayout';
+import Layout from './AdminLayout';
 
-export default function DashBoard() {
+export default function edjnDashBoard() {
   return (
     <div>
       <header className="mb-8">
